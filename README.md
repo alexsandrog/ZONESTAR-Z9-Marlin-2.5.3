@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware
+# Zonestar Z9 Marlin 3D printer firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
@@ -10,9 +10,19 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+## My version
+
+Marlin 2.5.3 firmware for Zonestar Z9SM3 3D printer with inductive SN04-N level sensor for automatic leveling, as well as many features that I can enable
+Running on a ZRIB V6 controller card, the ZRIB header file is from the official Zonestar patch that needed to be fixed in some places, as the way marlin names some things has changed,
+most of the motion configuration is identical to the example of the Marlins repository with all the bells and associates enabled for Z9SM3
+
+## Standard configuration marlin 2.5.3
+
+in the comfig folder of this [repository](https://github.com/alexsandrog/ZONESTAR-Z9-Marlin-2.0.6/tree/master/config).
+
 ## Marlin 2.0
 
-Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
+Marlin 2.0.6 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
 
 Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
 
